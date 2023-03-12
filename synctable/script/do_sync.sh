@@ -5,7 +5,7 @@
 SYNCPATH="/opt/table"
 
 if [ ! -d $SYNCPATH ]; then
-    echo "$SYNCPATH doesn't exit, bailing"
+    echo "$SYNCPATH doesn't exist, bailing"
     exit 1
 fi
 
