@@ -12,3 +12,7 @@ To get this working:
 * run script as sudo once to generate folders and files for the region
 * cd 1A, then add a symlink to your mlat-server sync.json in the 1A folder
 * cron job the script as bash every minute
+
+To fix
+
+* map doesn't work, no dots or data. But is accessible fully.
