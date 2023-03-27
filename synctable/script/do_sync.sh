@@ -10,6 +10,7 @@ if [ ! -d $SYNCPATH ]; then
 fi
 
 cd $SYNCPATH
+cp /run/mlat-server 1A/.
 
 # COUNTFILE has the format:
 # "region": [ count, "last-modified string", last-modified epoch ]
